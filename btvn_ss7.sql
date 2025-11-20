@@ -168,9 +168,6 @@ select
     sum(tong_tien) as tong_chi_tieu
 from don_hang
 group by id_khach_hang
-/*
-group by: nhóm dữ liệu theo các tiêu chí
-*/
 order by tong_chi_tieu desc;
 -- Đếm số lượng đơn hàng theo từng danh mục sản phẩm. Hiển thị danh_muc và số lượng đơn hàng tương ứng, đặt tên cột số lượng là so_luong_don
 select danh_muc,
